@@ -1,5 +1,7 @@
 printf "Setting up dot files\n"
-cp -r .zsh/ ~
-cp -r .vim/ ~
+mkdir ~/.zsh/
+mkdir ~/.vim/
+cp -r .zsh/ ~/.zsh/
+cp -r .vim/ ~/.vim/
 cp .zshrc ~
 cp .vimrc ~
